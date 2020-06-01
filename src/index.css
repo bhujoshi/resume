@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.circle-icon {
+  color: #FFF;
+  border-radius: 100%;
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  background-color: #002e58;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
+
+.main-circle-icon {
+  color: #FFF;
+  border-radius: 100%;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #002e58;
+  padding: 8px 6px;
+  box-sizing: border-box;
+  margin-right: 12px;
+}
+
+
+p {
+  margin: 10px 0px;
+}
+
+* {
+  font-family: Century Gothic;
+  font-size: 18px;
+}
