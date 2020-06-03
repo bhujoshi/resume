@@ -25,6 +25,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
+    - run: npm install gh-pages 
     - run: npm run deploy 
-    - run: yarn global add serve
-    - run: serve -s build
