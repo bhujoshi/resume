@@ -15,19 +15,19 @@ function App() {
           <div style={{ color: '#002e58', fontSize: '25px' }}>Software Engineer (Full Stack Developer)</div>
           <div style={{ marginTop: '16px' }}>
             <p>
-              <i class="fa fa-map-marker circle-icon"></i>
+              <i class="fa fa-map-marker circle-icon"></i>&nbsp;&nbsp;
               <span></span>
               <span>New Delhi</span>,
                         <span>DL</span>,
                         <span>110093</span>
             </p>
             <p>
-              <i class="fa fa-phone circle-icon"></i>
+              <i class="fa fa-phone circle-icon"></i>&nbsp;&nbsp;
               <span class="field" id="FIELD_HPHN">705 364 4020</span>
             </p>
             <p>
               <i style={{ padding: '4px 5px' }} class="fa fa-envelope circle-icon"></i>
-              <span>bhuwanchandra.it@gmail.com</span>
+              &nbsp;&nbsp;<span>bhuwanchandra.it@gmail.com</span>
             </p>
           </div>
         </div>
@@ -43,11 +43,11 @@ function App() {
             <ul>
               <li style={{ wordSpacing: '4px' }}>Data Structures &amp; Algorithms </li>
               <li style={{ wordSpacing: '4px' }}>Javascript, TypeScript</li>
-              <li style={{ wordSpacing: '4px' }}>React, React-native, Redux, MobX</li>
+              <li style={{ wordSpacing: '4px' }}><b>React, React-native, Redux, MobX (2+ Yr)</b></li>
               <li style={{ wordSpacing: '4px' }}>Unit testing, Jest, Enzyme, Mocha, Chai</li>
-              <li style={{ wordSpacing: '4px' }}>Python, PHP, NodeJS, Mysql</li>
+              <li style={{ wordSpacing: '4px' }}>Python, PHP, <b> NodeJS (6 months) </b>, Mysql</li>
               <li style={{ wordSpacing: '4px' }}>HTML5 &amp; CSS3, SASS</li>
-              <li style={{ wordSpacing: '4px' }}>Front-end Development</li>
+              <li style={{ wordSpacing: '4px' }}>Front-end Development </li>
               <li style={{ wordSpacing: '4px' }}>Git</li>
             </ul>
           </div>
