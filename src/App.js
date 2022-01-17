@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div id="document" style={{ display: 'inline' }}>
-      <div style={{ width: '200px', backgroundColor: '#002e58', color: '#002e58', display: 'inline-block', height: '1540px' }}>
+      <div style={{ width: '200px', backgroundColor: '#002e58', color: '#002e58', display: 'inline-block', height: '1576px' }}>
       </div>
       <div style={{ width: '500px', marginLeft: '20px', display: 'inline-block' }}>
 
@@ -12,15 +12,12 @@ function App() {
           <div>
             <span style={{ color: '#002e58', fontSize: '40px', fontWeight: '600' }}>Bhuwan Joshi</span>
           </div>
-          <div style={{ color: '#002e58', fontSize: '25px' }}>Software Engineer (Full Stack Developer)</div>
+          <div style={{ color: '#002e58', fontSize: '25px' }}>Software Engineer (Full stack Developer)</div>
           <div style={{ marginTop: '16px' }}>
-            <p>
+            <div>
               <i class="fa fa-map-marker circle-icon"></i>&nbsp;&nbsp;
-              <span></span>
-              <span>New Delhi</span>,
-                        <span>DL</span>,
-                        <span>110093</span>
-            </p>
+              Electronics City Phase 1, Bengaluru, 560100 
+            </div>
             <p>
               <i class="fa fa-phone circle-icon"></i>&nbsp;&nbsp;
               <span class="field" id="FIELD_HPHN">705 364 4020</span>
@@ -32,34 +29,58 @@ function App() {
           </div>
         </div>
         <div>
-          Forward-thinking Software Engineer (Full-stack-developer) with background working effectively in dynamic
-          environments. Fluent in Javascript programming language. Proud team player focused on achieving project
-          objectives with quality, speed and accuracy.
-            </div>
+          6+ years experience as software engineer.
+        </div>
         <div>
           <h2 style={{ color: '#002e58' }}><i style={{ paddingLeft: '10px' }}
             class="fa fa-puzzle-piece main-circle-icon"></i> Skills </h2>
           <div>
             <ul>
               <li style={{ wordSpacing: '4px' }}>Data Structures &amp; Algorithms </li>
-              <li style={{ wordSpacing: '4px' }}>Javascript, TypeScript</li>
-              <li style={{ wordSpacing: '4px' }}><b>React, React-native, Redux, MobX (2+ Yr)</b></li>
-              <li style={{ wordSpacing: '4px' }}>Unit testing, Jest, Enzyme, Mocha, Chai</li>
-              <li style={{ wordSpacing: '4px' }}>Python, PHP, <b> NodeJS (6 months) </b>, Mysql</li>
-              <li style={{ wordSpacing: '4px' }}>HTML5 &amp; CSS3, SASS</li>
-              <li style={{ wordSpacing: '4px' }}>Front-end Development </li>
-              <li style={{ wordSpacing: '4px' }}>Git</li>
+              <li style={{ wordSpacing: '4px' }}>Javascript, TypeScript, Software Design</li>
+              <li style={{ wordSpacing: '4px' }}>React, React-native, Electron</li>
+              <li style={{ wordSpacing: '4px' }}>Python, Scala, NodeJS, Mysql</li>
             </ul>
           </div>
+        </div>
+        <div>
+          <h2 style={{ color: '#002e58' }}> <i style={{ paddingLeft: '10px' }} class="fa fa-trophy main-circle-icon"></i>
+            Accomplishments </h2>
+          <ul style={{ margin: '5px' }}>
+            <li>Currently Creating a notes app (<a href="https://upnotes.io/">Upnotes</a>) for software engineers in ElctronJS</li>
+            <li>Worked on my own project <a href="https://croma.app/Home">Croma App</a>. Croma app is a open source project and it has 5k+ downloads in Android play store</li>
+            <li>Created Math Html editor for Edfora Infotech Pvt Ltd</li>
+            <li>Created a <a href="http://bhujoshi.github.io/">2048 Game</a> using javascript back in 2014.</li>
+          </ul>
+        </div>
+        <div>
+          <h2 style={{ color: '#002e58' }}> <i style={{ paddingLeft: '11px' }} class="fa fa-map-pin main-circle-icon"></i>
+            Profile Links </h2>
+          <ul style={{ margin: '5px' }}>
+            <li><a href="https://www.linkedin.com/in/bhuwan-joshi-1464a6a3/">Linkedin</a></li>
+            <li><a href="https://github.com/bhujoshi"> Github </a></li>
+            <li><a href="https://www.codechef.com/users/bhujoshi"> Codechef</a></li>
+          </ul>
         </div>
         <div>
           <h2 style={{ color: '#002e58' }}> <i style={{ paddingLeft: '9px' }}
             class="fa fa-briefcase main-circle-icon"></i>Work History </h2>
           <div style={{ margin: '20px' }}>
+          <div>
+              <div style={{ fontWeight: 600 }}>Software Engineer <span
+                style={{ position: 'absolute', left: '60px', fontSize: '16px', color: '#FFF' }}>2020-11 
+                2021-12</span>
+              </div>
+              <span style={{ fontSize: '16px', fontStyle: 'italic' }}>True fit (Later divided and converted to Shoptrue), Remote</span>
+              <ul style={{ margin: '5px -22px' }}>
+                <li>Shoptrue is an e-commerce site provides presonalised shopping experience.</li>
+                <li>My role was full stack developer. Worked on frontend part (Angular) and in backend worked on NodeJS, GraphQl, Scala and Postgresql</li>
+              </ul>
+            </div>
             <div>
               <div style={{ fontWeight: 600 }}>Software Engineer <span
                 style={{ position: 'absolute', left: '60px', fontSize: '16px', color: '#FFF' }}>2019-04 .
-                                Current</span>
+                2020-10 </span>
               </div>
               <span style={{ fontSize: '16px', fontStyle: 'italic' }}>Edfora infotech Pvt Ltd, Delhi</span>
               <ul style={{ margin: '5px -22px' }}>
@@ -71,7 +92,7 @@ function App() {
             <div style={{ paddingTop: '5px' }}>
               <div style={{ fontWeight: 600 }}>Software Engineer<span
                 style={{ position: 'absolute', left: '60px', fontSize: '16px', color: '#FFF' }}>2018-12 .
-                                2019-03</span>
+                2019-03</span>
               </div>
               <span style={{ fontSize: '16px', fontStyle: 'italic' }}>Hitachi MGRM Pvt Ltd, Gurugram, HR</span>
               <ul style={{ margin: '5px -22px' }}>
@@ -81,20 +102,20 @@ function App() {
             <div style={{ paddingTop: '5px' }}>
               <div style={{ fontWeight: 600 }}>Software Engineer<span
                 style={{ position: 'absolute', left: '60px', fontSize: '16px', color: '#FFF' }}>2019-04 .
-                                Current</span>
+                Current</span>
               </div>
               <span style={{ fontSize: '16px', fontStyle: 'italic' }}>Incaendo Technology Pvt Ltd., Delhi,
-                            Delhi</span>
+                Delhi</span>
               <ul style={{ margin: '5px -22px' }}>
                 <li> Worked on https://agriprofocus.com/intro is a social media for farmers using (Javascript,
-                php,
-                                python, MySql) </li>
+                  php,
+                  python, MySql) </li>
               </ul>
             </div>
             <div style={{ paddingTop: '5px' }}>
               <div style={{ fontWeight: 600 }}>PHP Developer<span
                 style={{ position: 'absolute', left: '60px', fontSize: '16px', color: '#FFF' }}>2015-05 .
-                                2016-06</span>
+                2016-06</span>
               </div>
               <span style={{ fontSize: '16px', fontStyle: 'italic' }}>E-profitbooster Pvt Ltd, Delhi, Delhi</span>
               <ul style={{ margin: '5px -22px' }}>
@@ -113,26 +134,7 @@ function App() {
             style={{ position: 'absolute', left: '60px', fontSize: '16px', color: '#FFF' }}>2011-06 . 2014-04</span>
           </div>
           <span style={{ fontSize: '16px', fontStyle: 'italic' }}>Govt. polytechnic Nainital, Uttrakhand,
-                        India</span>
-        </div>
-        <div>
-          <h2 style={{ color: '#002e58' }}> <i style={{ paddingLeft: '10px' }} class="fa fa-trophy main-circle-icon"></i>
-                    Accomplishments </h2>
-          <ul style={{ margin: '5px' }}>
-            <li>Created Math Html editor product for my last company</li>
-            <li>Open source contribution on https://github.com/croma-app/croma-react </li>
-            <li>Created a 2048 http://bhujoshi.github.io/ using javascript</li>
-          </ul>
-        </div>
-
-        <div>
-          <h2 style={{ color: '#002e58' }}> <i style={{ paddingLeft: '11px' }} class="fa fa-map-pin main-circle-icon"></i>
-                    Profile Links </h2>
-          <ul style={{ margin: '5px' }}>
-            <li>https://www.linkedin.com/in/bhuwan-joshi-1464a6a3/</li>
-            <li>https://github.com/bhujoshi</li>
-            <li>https://www.codechef.com/users/bhujoshi</li>
-          </ul>
+            India</span>
         </div>
       </div >
     </div>
