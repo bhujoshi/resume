@@ -3,10 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <div id="document" style={{ display: 'inline' }}>
-      <div style={{ width: '200px', backgroundColor: '#002e58', color: '#002e58', display: 'inline-block', height: '1576px' }}>
+    <div id="document" style={{ display: 'flex' }}>
+      <div style={{ width: '200px', backgroundColor: '#002e58', color: '#002e58'  }}>
       </div>
-      <div style={{ width: '500px', marginLeft: '20px', display: 'inline-block' }}>
+      <div style={{ width: '500px', marginLeft: '20px' }}>
 
         <div >
           <div>
