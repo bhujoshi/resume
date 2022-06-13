@@ -6,12 +6,12 @@ function App() {
     <div id="document" style={{ display: 'flex' }}>
       <div style={{ width: '200px', backgroundColor: '#002e58', color: '#002e58' }}>
       </div>
-      <div style={{ width: '600px', marginLeft: '20px' }}>
+      <div style={{ width: '600px', marginLeft: '20px', marginTop: '40px' }}>
         <div >
           <div>
             <span style={{ color: '#002e58', fontSize: '40px', fontWeight: '600' }}>Bhuwan Joshi</span>
           </div>
-          <div style={{ color: '#002e58', fontSize: '25px' }}>Software Engineer (Full stack Developer)</div>
+          <div style={{ color: '#002e58', fontSize: '25px' }}>Software Engineer (Front End Developer)</div>
           <div style={{ marginTop: '16px' }}>
             <div>
               <i class="fa fa-map-marker circle-icon"></i>&nbsp;&nbsp;
@@ -28,7 +28,8 @@ function App() {
           </div>
         </div>
         <div>
-          6+ years experience as software engineer mostly in frontend using React.
+          6+ years experience as a software engineer mostly in frontend development using React. Currently working in 
+          <a href="https://www.linkedin.com/company/appsforbharat/"> AppsForBharat</a>.
         </div>
         <div>
           <h2 style={{ color: '#002e58' }}><i style={{ paddingLeft: '10px', marginBottom: '6px' }}
@@ -44,8 +45,8 @@ function App() {
             Accomplishments 
           </h2>
           <ul style={{ margin: '5px' }}>
-            <li>Currently Creating a notes app (<a href="https://upnotes.io/">Upnotes</a>) for software engineers in ElctronJS</li>
-            <li>Worked on my own project <a href="https://croma.app/Home">Croma App</a>. Croma app is a open source project and it has 5k+ downloads in Android play store</li>
+            <li>Created a notes app for software engineers in ElctronJS (<a href="https://upnotes.io/">Upnotes</a>) </li>
+            <li>Worked on <a href="https://croma.app/Home">Croma App</a>. Croma app is a open source project and it has 5k+ downloads in Android play store</li>
             <li>Created Math Html editor for Edfora Infotech Pvt Ltd</li>
             <li>Created a <a href="http://bhujoshi.github.io/">2048 Game</a> using javascript back in 2014.</li>
           </ul>
@@ -65,6 +66,17 @@ function App() {
             class="fa fa-briefcase main-circle-icon"></i>Work History 
           </h2>
           <div style={{ margin: '20px' }}>
+          <div>
+              <div style={{ fontWeight: 600 }}> Senior Software Engineer <span
+                style={{ position: 'absolute', left: '40px', fontSize: '16px', color: '#FFF' }}>Mar 2022
+                - Current</span>
+              </div>
+              <span style={{ fontSize: '16px', fontStyle: 'italic' }}>AppsForBharat </span>
+              <ul style={{ margin: '5px -22px' }}>
+                <li>Building <a href='https://play.google.com/store/apps/details?id=com.mandir'> Sri Mandir application </a></li>
+                <li>Currently, I am working on the react-native part and building a community section for the application. My role is to understand product requirements, priorities them, and build</li>
+              </ul>
+            </div>
             <div>
               <div style={{ fontWeight: 600 }}>Software Engineer <span
                 style={{ position: 'absolute', left: '40px', fontSize: '16px', color: '#FFF' }}>Nov 2020
